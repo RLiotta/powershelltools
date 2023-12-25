@@ -1,5 +1,10 @@
 # PowerShell Tools
 
+ALWAYS CREATE SYSTEM RESTORE POINT BEFORE MODIFYING 
+1. click on start menu type system restore
+2. Now press create... and name it anything that you like.
+3. if anything breaks (which it shouldnt) you can easily and safely revert back by clicking the system restore button
+
 The first one, Razer Killer, is just to stop Razer's services from starting. 
 If you want to change any settings in Synapse, just turn them back on; 
 you shouldn't have to restart. 
