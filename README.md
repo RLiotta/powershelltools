@@ -13,7 +13,11 @@ I can't guarantee, but this lowers my startup processes.
 This sets services to manual so if something needs to start it should. 
 edit the script as you like.
 
-You may have to adjust your execution policy; you can do that by opening PowerShell. Select Start > All Programs > Windows PowerShell version > Windows PowerShell. Type `Get-ExecutionPolicy` to verify the current settings for the execution policy. Type `Set-ExecutionPolicy RemoteSigned` to set the policy to RemoteSigned.
+You may have to adjust your execution policy;
+you can do that by opening PowerShell.
+Select Start > All Programs > Windows PowerShell version > Windows PowerShell. 
+Type `Get-ExecutionPolicy` to verify the current settings for the execution policy. 
+Type `Set-ExecutionPolicy RemoteSigned` to set the policy to RemoteSigned.
 
 - RemoteSigned: Requires that all scripts and configuration files downloaded from the Internet be signed by a trusted publisher.
 - Unrestricted: Loads all configuration files and runs all scripts.
